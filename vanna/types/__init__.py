@@ -18,20 +18,6 @@ class StatusWithId:
 
 
 @dataclass
-class QuestionList:
-    questions: List[FullQuestionDocument]
-
-
-@dataclass
-class FullQuestionDocument:
-    id: QuestionId
-    question: Question
-    answer: SQLAnswer | None
-    data: DataResult | None
-    plotly: PlotlyResult | None
-
-
-@dataclass
 class QuestionSQLPair:
     question: str
     sql: str

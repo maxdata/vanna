@@ -7,33 +7,7 @@ import pandas as pd
 import requests
 
 from .base import VannaBase
-from .types import (
-  AccuracyStats,
-  ApiKey,
-  DataFrameJSON,
-  DataResult,
-  Explanation,
-  FullQuestionDocument,
-  NewOrganization,
-  NewOrganizationMember,
-  Organization,
-  OrganizationList,
-  PlotlyResult,
-  Question,
-  QuestionCategory,
-  QuestionId,
-  QuestionList,
-  QuestionSQLPair,
-  QuestionStringList,
-  SQLAnswer,
-  Status,
-  StatusWithId,
-  StringData,
-  TrainingData,
-  UserEmail,
-  UserOTP,
-  Visibility,
-)
+from .types import StringData
 from .vannadb import VannaDB_VectorStore
 
 
